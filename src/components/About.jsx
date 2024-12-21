@@ -6,7 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-
+import img from "../assets/own/dhiyansPhoto.jpg";
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
     <motion.div
@@ -43,10 +43,23 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
+      {/* Add your photo here */}
+    
+
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
+          <motion.div
+        variants={fadeIn("", "", 0.2, 1)}
+        className="m-5 flex  justify-center"
+      >
+        <img
+          src={img}
+          alt="Mahir Dhiyan Chowdhury"
+          className="w-80 h-72 rounded-3xl object-cover"
+        />
+      </motion.div>
         I'm a lifelong self-learner and problem solver, specializing in web
         development and coding. Currently pursuing a BSc in Mechanical
         Engineering, I am a self-taught web developer with expertise in creating
