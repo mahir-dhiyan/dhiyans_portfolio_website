@@ -176,26 +176,26 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+      "Hard work beats talent when talent doesn't work hard.",
+    name: "Tim Notke",
     designation: "CFO",
-    company: "Acme Co",
+    company: "High School Basketball Coach",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "Habits are the compound interest of self-improvement.",
+    name: "James Clear",
     designation: "COO",
-    company: "DEF Corp",
+    company: "Author of Atomic Habits",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "Who you are is defined by what you’re willing to struggle for.",
+    name: "Mark Manson",
     designation: "CTO",
-    company: "456 Enterprises",
+    company: "Author of The Subtle Art of ...",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
